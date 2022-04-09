@@ -21,6 +21,16 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "iac", "iac", "{63698420-37C
 		..\.github\workflows\release.yml = ..\.github\workflows\release.yml
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Avts.DecoratorsForCcc", "Avts.DecoratorsForCcc\Avts.DecoratorsForCcc\Avts.DecoratorsForCcc.csproj", "{D9D0CDF9-E6B6-4FC7-A6C9-DBBF66B5A58D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Avts.DecoratorsForCcc.CodeFixes", "Avts.DecoratorsForCcc\Avts.DecoratorsForCcc.CodeFixes\Avts.DecoratorsForCcc.CodeFixes.csproj", "{D4B02C18-BFB6-4D0B-8295-A0DF088E5321}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Avts.DecoratorsForCcc.Package", "Avts.DecoratorsForCcc\Avts.DecoratorsForCcc.Package\Avts.DecoratorsForCcc.Package.csproj", "{C28CEE8E-AFDD-4A68-9BE1-B3C68E8A9CA6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Avts.DecoratorsForCcc.Test", "Avts.DecoratorsForCcc\Avts.DecoratorsForCcc.Test\Avts.DecoratorsForCcc.Test.csproj", "{266E1228-E5B2-4CCE-8F29-73DE2F0F7CCB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Avts.DecoratorsForCcc.Vsix", "Avts.DecoratorsForCcc\Avts.DecoratorsForCcc.Vsix\Avts.DecoratorsForCcc.Vsix.csproj", "{900C1898-F1B1-415D-A8FE-A125A29FC3E7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -47,6 +57,26 @@ Global
 		{1F65A719-EED7-4D97-B983-33137C69001A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1F65A719-EED7-4D97-B983-33137C69001A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1F65A719-EED7-4D97-B983-33137C69001A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D9D0CDF9-E6B6-4FC7-A6C9-DBBF66B5A58D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D9D0CDF9-E6B6-4FC7-A6C9-DBBF66B5A58D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D9D0CDF9-E6B6-4FC7-A6C9-DBBF66B5A58D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D9D0CDF9-E6B6-4FC7-A6C9-DBBF66B5A58D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D4B02C18-BFB6-4D0B-8295-A0DF088E5321}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D4B02C18-BFB6-4D0B-8295-A0DF088E5321}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D4B02C18-BFB6-4D0B-8295-A0DF088E5321}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D4B02C18-BFB6-4D0B-8295-A0DF088E5321}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C28CEE8E-AFDD-4A68-9BE1-B3C68E8A9CA6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C28CEE8E-AFDD-4A68-9BE1-B3C68E8A9CA6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C28CEE8E-AFDD-4A68-9BE1-B3C68E8A9CA6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C28CEE8E-AFDD-4A68-9BE1-B3C68E8A9CA6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{266E1228-E5B2-4CCE-8F29-73DE2F0F7CCB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{266E1228-E5B2-4CCE-8F29-73DE2F0F7CCB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{266E1228-E5B2-4CCE-8F29-73DE2F0F7CCB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{266E1228-E5B2-4CCE-8F29-73DE2F0F7CCB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{900C1898-F1B1-415D-A8FE-A125A29FC3E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{900C1898-F1B1-415D-A8FE-A125A29FC3E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{900C1898-F1B1-415D-A8FE-A125A29FC3E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{900C1898-F1B1-415D-A8FE-A125A29FC3E7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

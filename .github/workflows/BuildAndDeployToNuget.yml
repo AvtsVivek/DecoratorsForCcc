@@ -46,10 +46,10 @@ jobs:
       uses: actions/setup-dotnet@v1
       
     - name: Install dependencies
-      run: dotnet restore src/MakeConst.sln
+      run: dotnet restore src/Avts.DecoratorsForCcc.sln
 
     - name: Build
-      run: dotnet build src/MakeConst.sln --configuration Release --no-restore
+      run: dotnet build src/Avts.DecoratorsForCcc.sln --configuration Release --no-restore
       
     # - name: Build
     #   run: dotnet build --configuration Release /p:Version=${VERSION}      
@@ -60,7 +60,7 @@ jobs:
       uses: alirezanet/publish-nuget@v3.0.3
 
       with:
-        PROJECT_FILE_PATH: src/MakeConst/MakeConst.Package/MakeConst.Package.csproj
+        PROJECT_FILE_PATH: src/Avts.DecoratorsForCcc/Avts.DecoratorsForCcc.Package/Avts.DecoratorsForCcc.Package.csproj
         # E:\Vivek\Trials\SourceGen\RoslynTuts\src\Ex10001010\MakeConst\MakeConst.Package\MakeConst.Package.csproj
         PACKAGE_NAME: Vivek.SimpleNuGet.Workflow
         VERSION_REGEX: '^\s*<Version>(.*)<\/Version>\s*$'
