@@ -58,7 +58,8 @@ jobs:
       # uses: brandedoutcast/publish-nuget@v2.5.5
       # uses: rohith/publish-nuget@v2
       # uses: alirezanet/publish-nuget@v3.0.3
-      uses: laget-se/publish-nuget
+      uses: AvtsVivek/publish-to-nuget@main
+      # uses: laget-se/publish-nuget
 
       with:
         PROJECT_FILE_PATH: src/Avts.DecoratorsForCcc/Avts.DecoratorsForCcc.Package/Avts.DecoratorsForCcc.Package.csproj
