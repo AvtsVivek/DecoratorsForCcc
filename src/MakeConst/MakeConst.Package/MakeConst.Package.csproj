@@ -13,7 +13,6 @@
     <Version>0.0.11</Version>
     <Authors>Vivekanand.Koppula</Authors>
     <Company>Avts</Company>
-    <PackageProjectUrl>https://github.com/AvtsVivek/DecoratorsForCcc</PackageProjectUrl>
     <RepositoryUrl>https://github.com/AvtsVivek/DecoratorsForCcc</RepositoryUrl>
     <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
     <Description>MakeConst</Description>
