@@ -9,8 +9,8 @@
 
   <PropertyGroup>
     <PackageId>Vivek.SimpleNuGet.Workflow</PackageId>
-    <PackageVersion>0.0.20</PackageVersion>
-    <Version>0.0.20</Version>
+    <PackageVersion>0.0.21</PackageVersion>
+    <Version>0.0.21</Version>
     <Authors>Vivekanand.Koppula</Authors>
     <Company>Avts</Company>
     <RepositoryUrl>https://github.com/AvtsVivek/DecoratorsForCcc</RepositoryUrl>
