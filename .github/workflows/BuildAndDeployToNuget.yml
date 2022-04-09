@@ -46,7 +46,7 @@ jobs:
       uses: actions/setup-dotnet@v1
       
     - name: Install dependencies
-      run: dotnet restore
+      run: dotnet restore src/MakeConst/
 
     - name: Build
       run: dotnet build --configuration Release --no-restore
